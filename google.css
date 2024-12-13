@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-family: 'Times New Roman';
+    line-height: 1.2;
+    font-size: 5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(ca.jpg);
+  }
+  
+  .search-bar{
+    position: relative;
+    width: 400px;
+    margin: 0% auto;
+    padding-top: 20px;
+  }
+  .grid-item{
+    border-radius: 30px;
+    display: inline-block;
+    width: 800px;
+    padding: 10px; 
+  }
+  .grid-item .srch{
+    float: left;
+  }
+  .grid-item .mic{
+    float: right;
+  }
+  .grid-item .pic{
+    float: left;
+  }
+  .offerd{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+  
+  .link{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  .link a:hover{
+    background-color:greenyellow;
+  }
+  .link a{
+    text-decoration: none;
+    padding-inline: 10px;
+    border-radius: 10px;
+    transition:0.4s ease-in-out;
+    color:blue;
+    font-family: arial;
+    font-weight: bold;
+  }
+  .div-cont{
+    display: grid; 
+  }
+  
+  .div-itemm{
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+    color: whitesmoke;
+  }
+  .div-itemm .first{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+  }
+  .div-itemm .second{
+    border-bottom: 1px solid white;
+  }
+  .div-itemm .third{
+    border-bottom: 1px solid white;
+  }
+  .div-itemm .fourth{
+    border-bottom: 1px solid white;
+  }
+  .div-itemm .fifth{
+    border-bottom: 1px solid white;
+  }
+  
+  .grid-con{
+    display: grid;
+    grid-template-columns: 7, 1f;
+  }
+  
+  .body{
+    background-color:rgba(14, 13, 13, 0.742);
+  }
+  
+  .footer{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  .footer a:hover{
+    background-color:greenyellow;
+  }
+  .footer a{
+    text-decoration: none;
+    padding-inline: 10px;
+    border-radius: 10px;
+    transition:0.4s ease-in-out;
+    color:whitesmoke;
+    font-family: arial;
+    font-weight: bold;
+  }
+  
+  .foote{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  .foote a:hover{
+    background-color:greenyellow;
+  }
+  .foote a{
+    text-decoration: none;
+    padding-inline: 10px;
+    border-radius: 10px;
+    transition:0.4s ease-in-out;
+    color:whitesmoke;
+    font-family: arial;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
